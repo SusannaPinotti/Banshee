@@ -22,9 +22,10 @@
   font-display: swap;
 }
 
+
 /* HTML */
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     background-color:rgb(148, 187, 233, .3) !important ;
 }
 
