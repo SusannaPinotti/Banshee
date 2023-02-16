@@ -148,7 +148,7 @@ a {
 p {
   font-family: 'Bellefair', serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 23px;
   text-align: justify;
 }
 
@@ -174,7 +174,7 @@ p {
   opacity: .4;
 }
 
-#figurine {
+#carousel1 {
   align-items: center !important;
 }
 
@@ -192,9 +192,9 @@ p {
 
 li {
   font-family: 'Bellefair', serif;
-  font-weight: 400;
-  font-size: 16px;
-  text-align:left;
+  font-weight: 600;
+  font-size: 20px;
+  text-align:center;
 }
 
 .img-fluid {
@@ -262,6 +262,22 @@ footer {
 }
 
 .carousel-inner{
-  width:350px;
-  height:600px;
+  width:571px;
+  height: 540px;
+  overflow: visible;
 }
+
+.carousel-item img {
+  margin: 0 auto; /* this will align the image to center. */
+  width: auto; /* for those images which don't have a width specified, but has a max-height will be auto adjusted */
+  height: auto;
+}
+
+figcaption{
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+}
+
